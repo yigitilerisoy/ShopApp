@@ -14,13 +14,48 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 #line 2 "C:\Users\HP VİCTUS\Source\Repos\ShopApp\ShopApp\Views\_ViewImports.cshtml"
+using ShopApp.Entity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Users\HP VİCTUS\Source\Repos\ShopApp\ShopApp\Views\_ViewImports.cshtml"
 using ShopApp.Models;
 
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\HP VİCTUS\Source\Repos\ShopApp\ShopApp\Views\_ViewImports.cshtml"
+using Newtonsoft.Json;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "C:\Users\HP VİCTUS\Source\Repos\ShopApp\ShopApp\Views\_ViewImports.cshtml"
+using ShopApp.Extensions;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 6 "C:\Users\HP VİCTUS\Source\Repos\ShopApp\ShopApp\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 7 "C:\Users\HP VİCTUS\Source\Repos\ShopApp\ShopApp\Views\_ViewImports.cshtml"
+using ShopApp.Identity;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ce601272d19647c5c9b733d2557914f7f2ff4bd7", @"/Views/Product/Details.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"dd8dbf18ad11473fdef243874d55dc2fb9aa2ae7", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e3e7ac060a891f4be6b551ab96b46fb49979f9e6", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Product_Details : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Product>
     #nullable disable
@@ -64,7 +99,7 @@ Write(await Component.InvokeAsync("Categories"));
             }
             );
             WriteLiteral("\r\n<div class=\"card mb-3\">\r\n    <div class=\"card-body\">\r\n        <div class=\"row no-gutters\">\r\n            <div class=\"col-md-3\">\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "ce601272d19647c5c9b733d2557914f7f2ff4bd73882", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "ce601272d19647c5c9b733d2557914f7f2ff4bd74789", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

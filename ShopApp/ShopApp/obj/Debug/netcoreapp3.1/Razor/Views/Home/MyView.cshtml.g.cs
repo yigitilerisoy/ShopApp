@@ -14,13 +14,48 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 #line 2 "C:\Users\HP VİCTUS\Source\Repos\ShopApp\ShopApp\Views\_ViewImports.cshtml"
+using ShopApp.Entity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "C:\Users\HP VİCTUS\Source\Repos\ShopApp\ShopApp\Views\_ViewImports.cshtml"
 using ShopApp.Models;
 
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\HP VİCTUS\Source\Repos\ShopApp\ShopApp\Views\_ViewImports.cshtml"
+using Newtonsoft.Json;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "C:\Users\HP VİCTUS\Source\Repos\ShopApp\ShopApp\Views\_ViewImports.cshtml"
+using ShopApp.Extensions;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 6 "C:\Users\HP VİCTUS\Source\Repos\ShopApp\ShopApp\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 7 "C:\Users\HP VİCTUS\Source\Repos\ShopApp\ShopApp\Views\_ViewImports.cshtml"
+using ShopApp.Identity;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b051165235dd488e4d095a7719e119aebf041f2d", @"/Views/Home/MyView.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"dd8dbf18ad11473fdef243874d55dc2fb9aa2ae7", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e3e7ac060a891f4be6b551ab96b46fb49979f9e6", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Home_MyView : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -51,7 +86,7 @@ using ShopApp.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<!DOCTYPE html>\r\n<html lang=\"en\">\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b051165235dd488e4d095a7719e119aebf041f2d3103", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b051165235dd488e4d095a7719e119aebf041f2d4010", async() => {
                 WriteLiteral("\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n    <title>Home</title>\r\n");
             }
             );
@@ -65,7 +100,7 @@ using ShopApp.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b051165235dd488e4d095a7719e119aebf041f2d4275", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b051165235dd488e4d095a7719e119aebf041f2d5182", async() => {
                 WriteLiteral("\r\n    home/contact\r\n");
             }
             );

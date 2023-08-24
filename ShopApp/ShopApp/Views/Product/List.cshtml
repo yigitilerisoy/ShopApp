@@ -1,5 +1,5 @@
-﻿@using ShopApp.ViewModels;
-@model ProductViewModel
+﻿@using ShopApp.Models;
+@model ProductListViewModel
 
 @{
     var popularClass = Model.Products.Count > 2 ? "popular" : "";
@@ -21,7 +21,7 @@ else
     <div class="row">
         @foreach (var product in products)
         {
-            <div class="col-md-3">
+            <div class="col-md-4">
                 @await Html.PartialAsync("_product", product)
             </div>
         }

@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ShopApp.Business.Abstract;
 using ShopApp.Data;
+using ShopApp.Data.Absctract;
 using ShopApp.Models;
-using ShopApp.ViewModels;
 using System;
 using System.Collections.Generic;
 
@@ -9,14 +10,21 @@ namespace ShopApp.Controllers
 {
     public class HomeController : Controller
     { 
+        private IProductService _productService;
+
+        public HomeController(IProductService productService)
+        {
+            this._productService = productService;
+        }
+
+
         public IActionResult Index()
         {
 
-            var productViewModel = new ProductViewModel()
+            var productViewModel = new ProductListViewModel()
             {
-                Products = ProductRepository.Products,
+                Products = _productService.GetHomePageProducts()
             };
-            //ViewBag.Category = category;
 
             return View(productViewModel);
 

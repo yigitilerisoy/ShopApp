@@ -1,15 +1,62 @@
-﻿ <div class="navbar bg-danger navbar-dark navbar-expand-sm">
-        <div class="container">
-            <ul class="navbar-nav">
+﻿<div class="navbar bg-danger navbar-dark navbar-expand-sm">
+    <div class="container">
+        <a href="/" class="navbar-brand">Shopapp</a>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a href="/products" class="nav-link">Ürünler</a>
+            </li>
+
+            @if (User.Identity.IsAuthenticated)
+            {
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Product</a>
+                    <a href="/cart" class="nav-link">Alışveriş Sepeti</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Link 2</a>
+                    <a href="/orders" class="nav-link">Siparişler</a>
+                </li>
+
+                if (User.IsInRole("Admin"))
+                {
+                    <li class="nav-item">
+                        <a href="/admin/products" class="nav-link">Admin Ürün Yönetimi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/admin/categories" class="nav-link">Admin Kategori Yönetimi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/admin/role/list" class="nav-link">Roller</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/admin/user/list" class="nav-link">Kullanıcılar</a>
+                    </li>
+                }
+            }
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+
+            @if (User.Identity.IsAuthenticated)
+            {
+                <li class="nav-item">
+                    <a href="/account/manage" class="nav-link">
+                        @User.Identity.Name
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Link 3</a>
+                    <a href="/account/logout" class="nav-link">Çıkış Yap</a>
                 </li>
-            </ul>
-        </div>
+            }
+            else
+            {
+                <li class="nav-item">
+                    <a href="/account/login" class="nav-link">Kullanıcı Girişi</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/account/register" class="nav-link">Kayıt Ol</a>
+                </li>
+            }
+        </ul>
+
+
     </div>
+</div>
