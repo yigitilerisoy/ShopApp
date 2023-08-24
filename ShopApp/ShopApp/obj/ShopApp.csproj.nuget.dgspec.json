@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP VİCTUS\\Source\\Repos\\ShopApp\\ShopApp\\ShopApp.csproj": {}
+    "C:\\Users\\HP VİCTUS\\Source\\GitHubProjeler\\ShopApp\\ShopApp\\ShopApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP VİCTUS\\Source\\Repos\\ShopApp\\ShopApp\\ShopApp.csproj": {
+    "C:\\Users\\HP VİCTUS\\Source\\GitHubProjeler\\ShopApp\\ShopApp\\ShopApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP VİCTUS\\Source\\Repos\\ShopApp\\ShopApp\\ShopApp.csproj",
+        "projectUniqueName": "C:\\Users\\HP VİCTUS\\Source\\GitHubProjeler\\ShopApp\\ShopApp\\ShopApp.csproj",
         "projectName": "ShopApp",
-        "projectPath": "C:\\Users\\HP VİCTUS\\Source\\Repos\\ShopApp\\ShopApp\\ShopApp.csproj",
+        "projectPath": "C:\\Users\\HP VİCTUS\\Source\\GitHubProjeler\\ShopApp\\ShopApp\\ShopApp.csproj",
         "packagesPath": "C:\\Users\\HP VİCTUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP VİCTUS\\Source\\Repos\\ShopApp\\ShopApp\\obj\\",
+        "outputPath": "C:\\Users\\HP VİCTUS\\Source\\GitHubProjeler\\ShopApp\\ShopApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
